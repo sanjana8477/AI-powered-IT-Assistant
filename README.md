@@ -13,7 +13,7 @@ The assistant uses **Large Language Models (LLMs)**, **semantic search**, and **
 - Retrieve similar past incidents
 - Answer troubleshooting questions via a natural-language interface
 
-It features a modular, cloud-ready design and can be easily deployed on **Microsoft Azure**.
+The tool features a clean UI, modular backend, and can be run locally or deployed to any cloud provider or server environment.
 
 ---
 
@@ -43,7 +43,8 @@ It features a modular, cloud-ready design and can be easily deployed on **Micros
 - **Resolution Recommendation:** Get concise, step-by-step solutions for new incidents based on historical data.
 - **Conversational Assistant:** Ask troubleshooting questions and receive AI-powered answers.
 - **Interactive UI:** Streamlit-based chatbot interface for seamless agent interaction.
-- **Cloud-Ready:** Easily containerized and deployable on Azure App Service, Azure Container Instances, or similar platforms.
+- **Modular Design:** Cleanly separated frontend, backend, and model components.
+
 
 ---
 
@@ -60,7 +61,7 @@ Solution Architechture Diagram:
 - **LLM Integration:** Ollama (open-source LLM) powers natural language understanding and solution generation(model used phi3).
 - **Backend:** FastAPI exposes RESTful APIs for recommendations, search, and Q&A.
 - **Frontend:** Streamlit provides an easy-to-use chatbot UI for agents.
-- **Azure-ready:** Components are containerized and compatible with Azure services.
+
 
 ---
 
@@ -82,8 +83,6 @@ Solution Architechture Diagram:
 
 - Python 3.9+
 - [Ollama](https://ollama.com/) server running (for LLM)
-- Docker (optional, for containerized deployment)
-- (Recommended) Azure account for cloud deployment
 
 ### Installation
 
