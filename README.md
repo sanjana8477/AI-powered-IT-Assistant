@@ -87,41 +87,36 @@ Solution Architechture Diagram:
 
 ### Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/SuruchiCode/AI-powered-Incident-Resolution-Assistant.git
-   ```
-
-2. **Install dependencies**
+1. **Install dependencies**
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Set up historical ticket data**
+2. **Set up historical ticket data**
    - Place your ITSM CSV file in the `data/` directory.
 
-4. **Start ChromaDB and embedding model**
+3. **Start ChromaDB and embedding model**
    - No separate ChromaDB server required; the app handles this.
    - Make sure you have enough memory to load the Sentence Transformer model.
 
-5. **Run Ollama server**
+4. **Run Ollama server**
    ```bash
    ollama serve
    ollama pull phi3
    ollama run phi3
    ```
 
-6. **Start the FastAPI backend**
+5. **Start the FastAPI backend**
    ```bash
    uvicorn main:app --reload
    ```
 
-7. **Run the Streamlit frontend**
+6. **Run the Streamlit frontend**
    ```bash
    streamlit run chatbot.py
    ```
 
-8. **Access the UI**
+7. **Access the UI**
    - Open the Streamlit URL in your browser (usually `http://localhost:8501`).
 
 ---
@@ -145,7 +140,7 @@ Solution Architechture Diagram:
 
 ## Authors
 
-- Suruchicodes(Suruchi Kumari)
+- Team SheCodes
 
 ---
 
