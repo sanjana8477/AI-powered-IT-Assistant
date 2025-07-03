@@ -1,4 +1,4 @@
-# AI-powered Incident Resolution Assistant   
+# FixBot: AI for IT Support
 *Built by Team SheCodes for Code for Bharat - Season 2 (2025)*  
 **Theme:** Generative AI & LLMs
 
